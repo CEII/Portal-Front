@@ -22,6 +22,5 @@ steps:
   
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    ArtifactName: 'portal-front-dev'
