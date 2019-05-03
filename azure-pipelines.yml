@@ -22,5 +22,5 @@ steps:
   
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)/public'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/build'
     ArtifactName: 'portal-front-dev'
